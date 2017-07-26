@@ -179,7 +179,7 @@ mmtsneP <- function(P, no_maps, no_dims=2, max_iter=500, momentum=0.5, final_mom
 #'    \code{\link{p2sp}} to convert \code{X} into an \eqn{N} by \eqn{N}
 #'    symmetrical joint probability matrix.
 #'
-#' The \code{mmtnsep} code is an almost direct port of the original multiple
+#' The \code{mmtnseP} code is an almost direct port of the original multiple
 #'    maps t-SNE Matlab code by van der Maaten and Hinton (2012). \code{mmtsne}
 #'    estimates a multidimensional array of \code{N x no_dims x no_maps}. Each
 #'    map is an \code{N x no_dims} matrix of estimated t-SNE coordinates. When

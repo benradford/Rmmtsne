@@ -2,7 +2,7 @@ Package: mmtsne
 Type: Package
 Title: Multiple Maps t-SNE
 Author: Benjamin J. Radford
-Maintainer: Benjamin J. Radford <ben.radford@soteradefense.com>
+Maintainer: Benjamin J. Radford <benjamin.radford@gmail.com>
 Version: 0.1.0
 Description: An implementation of multiple maps t-distributed stochastic
     neighbor embedding (t-SNE) in R. Multiple maps t-SNE is a method for
