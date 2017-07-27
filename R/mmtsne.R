@@ -56,8 +56,7 @@
 #' @references L.J.P. van der Maaten and G.E. Hinton. ``Visualizing Non-Metric
 #'    Similarities in Multiple Maps.'' \emph{Machine Learning} 87(1):33-55,
 #'    2012.
-#'    \href{https://lvdmaaten.github.io/publications/papers/
-#'    MachLearn_2012.pdf}{PDF.}
+#'    \href{https://lvdmaaten.github.io/publications/papers/MachLearn_2012.pdf}{PDF.}
 #'
 #' @export
 mmtsneP <- function(P, no_maps, no_dims=2, max_iter=500, momentum=0.5, final_momentum=0.8, mom_switch_iter=250, eps=1e-7)
@@ -229,8 +228,7 @@ mmtsneP <- function(P, no_maps, no_dims=2, max_iter=500, momentum=0.5, final_mom
 #' @references L.J.P. van der Maaten and G.E. Hinton. ``Visualizing Non-Metric
 #'    Similarities in Multiple Maps.'' \emph{Machine Learning} 87(1):33-55,
 #'    2012.
-#'    \href{https://lvdmaaten.github.io/publications/papers/
-#'    MachLearn_2012.pdf}{PDF.}
+#'    \href{https://lvdmaaten.github.io/publications/papers/MachLearn_2012.pdf}{PDF.}
 #'
 #' @export
 mmtsne <- function(X, no_maps=1, no_dims=2, perplexity=30, max_iter=500, momentum=0.5, final_momentum=0.8, mom_switch_iter=250, eps=1e-7)

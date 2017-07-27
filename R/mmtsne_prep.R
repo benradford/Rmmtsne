@@ -2,6 +2,9 @@
 #'
 #' \code{hbeta} returns the perplexity and probability values for a row
 #'    of data \code{D}.
+#'    
+#' @param D A distance vector.
+#' @param beta A constant scalar.
 hbeta <- function(D, beta=1)
 {
   ## Compute the perplexity and the P-row for a specific value of the precision of a Gaussian distribution.
@@ -31,8 +34,7 @@ hbeta <- function(D, beta=1)
 #'
 #' @references L.J.P. van der Maaten and G.E. Hinton. ``Visualizing
 #'    High-Dimensional Data Using t-SNE.'' \emph{Journal of Machine Learning
-#'    Research} 9(Nov):2579-2605, 2008. \href{https://lvdmaaten.github.io/
-#'    publications/papers/JMLR_2008.pdf}{PDF.}
+#'    Research} 9(Nov):2579-2605, 2008. \href{https://lvdmaaten.github.io/publications/papers/JMLR_2008.pdf}{PDF.}
 x2p <- function(X, perplexity=30, tol=1e-5)
 {
   n <- nrow(X)
@@ -86,7 +88,7 @@ x2p <- function(X, perplexity=30, tol=1e-5)
     }
     P[i, notI] <- thisP
   }
-  cat("\rMean value of sigma:",mean(sqrt(1/beta)))
+  cat("\rMean value of sigma:",mean(sqrt(1/beta)),"\n")
   P
 }
 
