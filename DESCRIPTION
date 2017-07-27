@@ -14,17 +14,13 @@ Description: An implementation of multiple maps t-distributed stochastic
     depending on similarity relationships in the original data. This
     implementation is a port of the original Matlab library by Laurens van der
     Maaten.
-
     This material is based upon work supported by the United States Air Force 
     and Defense Advanced Research Project Agency (DARPA) under Contract No. 
     FA8750-17-C-0020.
-
     Any opinions, findings and conclusions or recommendations expressed in this
     material are those of the author(s) and do not necessarily reflect the views 
     of the United States Air Force and Defense Advanced Research Projects Agency.
-
     Distribution Statement A: Approved for Public Release; Distribution Unlimited.
-
 License: FreeBSD | file LICENSE
 LazyData: TRUE
 RoxygenNote: 6.0.1
