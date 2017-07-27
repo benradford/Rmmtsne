@@ -9,8 +9,10 @@ An implementation of multiple maps t-distributed stochastic neighbor embedding (
 
 License: FreeBSD | file LICENSE
 
-Distribution Statement A: Approved for Public Release; Distribution Unlimited.
+<hline>
 
 This material is based upon work supported by the United States Air Force and Defense Advanced Research Project Agency (DARPA) under Contract No. FA8750-17-C-0020.
 
 Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the United States Air Force and Defense Advanced Research Projects Agency.
+
+Distribution Statement A: Approved for Public Release; Distribution Unlimited.
