@@ -37,7 +37,6 @@
 #'    }
 #'
 #' @examples
-#' \dontrun{
 #' # Load the iris dataset
 #' data("iris")
 #'
@@ -45,7 +44,7 @@
 #' prob_matrix <- p2sp(x2p(as.matrix(iris[,1:4])))
 #'
 #' # Estimate a mmtsne model with 2 maps, 2 dimensions each
-#' model <- mmtsneP(prob_matrix, no_maps=2)
+#' model <- mmtsneP(prob_matrix, no_maps=2, max_iter=100)
 #'
 #' # Plot the results side-by-side for inspection
 #' # Points scaled by map proportion weights plus constant factor
@@ -53,7 +52,6 @@
 #' plot(model$Y[,,1], col=iris$Species, cex=model$proportions[,1] + 0.2)
 #' plot(model$Y[,,2], col=iris$Species, cex=model$proportions[,2] + 0.2)
 #' par(mfrow=c(1,1))
-#' }
 #'
 #' @references L.J.P. van der Maaten and G.E. Hinton. ``Visualizing Non-Metric
 #'    Similarities in Multiple Maps.'' \emph{Machine Learning} 87(1):33-55,
@@ -214,12 +212,11 @@ mmtsneP <- function(P, no_maps, no_dims=2, max_iter=500, momentum=0.5, final_mom
 #'    }
 #'
 #' @examples
-#' \dontrun{
 #' # Load the iris dataset
 #' data("iris")
 #'
 #' # Estimate a mmtsne model with 2 maps, 2 dimensions each
-#' model <- mmtsne(iris[,1:4], no_maps=2)
+#' model <- mmtsne(iris[,1:4], no_maps=2, max_iter=100)
 #'
 #' # Plot the results side-by-side for inspection
 #' # Points scaled by map proportion weights plus constant factor
@@ -227,7 +224,6 @@ mmtsneP <- function(P, no_maps, no_dims=2, max_iter=500, momentum=0.5, final_mom
 #' plot(model$Y[,,1], col=iris$Species, cex=model$proportions[,1] + .2)
 #' plot(model$Y[,,2], col=iris$Species, cex=model$proportions[,2] + .2)
 #' par(mfrow=c(1,1))
-#' }
 #'
 #' @references L.J.P. van der Maaten and G.E. Hinton. ``Visualizing Non-Metric
 #'    Similarities in Multiple Maps.'' \emph{Machine Learning} 87(1):33-55,
